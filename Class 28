@@ -1,0 +1,57 @@
+JOB 28 – DIRECTORIES & BATCH JOBS
+
+1. Introduction
+Job 28 focuses on handling folders, files and multiple files using Python. It teaches how to organize files, find specific files and process multiple files automatically in a single program.
+2. Learning Objectives
+Understand directories and file paths.
+Use the pathlib module to manage files and folders.
+Understand the glob() method to search for files.
+Check whether a file or folder exists.
+Create folders automatically using Python.
+Process multiple files using a batch job.
+3. Important Concepts
+A. Pathlib Module
+The pathlib module is used to create and manage file paths in Python.
+Example:
+from pathlib import Path
+
+data = Path("data")
+log = data / "shift_01.csv"
+
+print(log.exists())
+print(log.name)
+print(log.stem)
+print(log.suffix)
+print(log.parent)
+
+B. Glob Function
+The glob() function is used to search for files based on a particular pattern.
+Example:
+from pathlib import Path
+
+data = Path("data")
+
+for file in data.glob("*.csv"):
+    print(file)
+C. Creating a Directory
+Python can automatically create a folder using mkdir().
+from pathlib import Path
+
+out = Path("reports")
+out.mkdir(exist_ok=True)
+Here, exist_ok=True prevents an error if the folder already exists.
+D. Batch Job
+A batch job means processing multiple files automatically using a single program.
+Example:
+from pathlib import Path
+
+data = Path("data")
+
+for file in data.glob("*.txt"):
+    with open(file) as f:
+        content = f.read()
+        print(file.name, len(content))
+This program searches for all .txt files and processes them one by one.
+Conclusion
+Job 28 teaches how to manage directories, search files and process multiple files automatically using Python. 
+It helps in developing programs that can handle large amounts of data efficiently.
