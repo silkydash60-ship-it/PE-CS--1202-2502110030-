@@ -1,0 +1,59 @@
+JOB 29 – PROJECT SPRINT I: BUILD
+
+1. Introduction
+Job 29 introduces project development using Python. Instead of only learning programming syntax, students are required to identify a real-life problem and develop a useful software solution.
+The project should solve a practical problem related to rural development or assistive technology.
+2. Learning Objectives
+Identify a real-life problem.
+Understand the requirements of a project.
+Select a suitable project idea.
+Develop a working Python program.
+Read input, process data and generate output.
+Complete a small project within the given time.
+3. Starting Points – Project Ideas
+The following project ideas are given in the course material.
+A. Rural Development Projects
+1. Irrigation Logbook
+Records pump running hours.
+Records water delivery per plot.
+Reports which plots are under-watered.
+Identifies possible pump failures.
+2. Storage Loss Tracker
+Records weekly grain weights.
+Calculates storage losses.
+Ranks storage bags according to losses.
+Helps farmers identify which storage method is effective.
+B. Assistive Technology Projects
+3. Medicine Reminder Sheet
+Records medicine prescriptions.
+Groups medicines according to time.
+Provides warnings when two medicines may clash in timing.
+Generates a printable medicine schedule.
+4. Wheelchair Route Notes
+Stores shared wheelchair routes.
+Records ramps and door widths.
+Provides information about accessible routes.
+Helps users identify suitable paths.
+C. Other Project Ideas
+5. Your Own Shop-Floor Tool
+A tool designed for a real workshop, such as:
+Inspection bench.
+Batch reporter.
+Machine fleet monitor.
+6. Bring Your Own Idea
+Students can select any real-life problem and develop a suitable Python-based solution.
+4. Scope Gauge – Project Planning
+Before developing a project, its features must be selected according to the available time.
+The project has approximately 10 working hours before the demonstration.
+5. Three Main Stages of a Project
+Every project should follow three important stages:
+Input: Collect data from a file or user.
+Process: Perform calculations and analyze the data.
+Output: Display results or generate a report.
+Example: Production Quality Checker
+Input: Production measurements.
+Process: Check measurements and identify defective products.
+Output: Accepted and rejected product reports.
+Conclusion
+Job 29 focuses on identifying real-life problems and developing practical Python projects.
+It teaches project planning, feature selection, problem-solving and building a working application within a limited time.
